@@ -383,7 +383,7 @@ if "generated_report_text" not in st.session_state:
     st.session_state["generated_report_text"] = None
 
 if st.button(":blue[Generate Report]", key="generate_report"):
-    if injury_reports and post_treatment:
+    if injury_reports and post_treatment and pain_scale:
         section_separator = "<br>\n\n"
         combined_report = "\n<br>\n".join(injury_reports)
         full_report = (
