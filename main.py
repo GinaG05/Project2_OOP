@@ -359,8 +359,12 @@ pain_scale = st.number_input(
     min_value=0,
     max_value=10,
     step=1,
+    placeholder = "Enter a pain scale from 0–10",
     key="pain_scale"
 )
+if pain_scale is not None:
+    st.markdown(f"Number {pain_scale} has been selected.")
+
 
 pain_scale_print = f"• Pain Scale {pain_scale}/10; See 'PRESCRIPTIONS' for further information. <br>  \n"
 general_pt_notes = (f"• PT advised of signs of infection and how to take care of the wound. <br>  \n"
