@@ -355,6 +355,7 @@ post_treatment_html = (
 
 pain_scale = st.number_input(
     "Pain Scale",
+    value = None,
     min_value=0,
     max_value=10,
     step=1,
@@ -362,7 +363,7 @@ pain_scale = st.number_input(
     key="pain_scale"
 )
 if pain_scale is not None:
-    st.markdown(f"Number {pain_scale} has been selected.")
+    st.markdown(f":green[Number {pain_scale} has been selected.]")
 
 
 pain_scale_print = f"• Pain Scale {pain_scale}/10; See 'PRESCRIPTIONS' for further information. <br>  \n"
