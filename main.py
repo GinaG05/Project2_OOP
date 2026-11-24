@@ -407,3 +407,28 @@ if st.session_state["generated_report_text"] is not None:
             st.session_state["generated_report_text"],
             language="html"
         )
+def reset_all():
+    st.session_state["injuries"] = []
+    st.session_state["id_counter"] = 0
+    st.session_state["generated_report_text"] = None
+
+    st.session_state["diagnosis_input"] = ""
+    st.session_state["injury_input"] = None
+    st.session_state["internals_input"] = []
+    st.session_state["suture_input"] = None
+    st.session_state["thread_selection"] = None
+    st.session_state["skeleton_location"] = None
+    st.session_state["skeleton_view"] = "Front"
+    st.session_state["post_treatment"] = ""
+    st.session_state["pain_scale"] = 0
+
+    st.session_state.pop("injury_success", None)
+    st.session_state.pop("injury_remove_success", None)
+    st.session_state.pop("reset_injury_inputs", None)
+
+
+st.button(
+    "Reset all",
+    key="reset_all_button",
+    on_click=reset_all
+)
