@@ -1,0 +1,44 @@
+{
+  "Gunshot Wound (Lodged)": {
+    "initial_obs": ["• Wound flushed with saline and inspected for any venous (dark red) or arterial (bright red) blood seeping through the wound: {bleeding_observation}"
+    ],
+
+    "if_vascular": [
+                  "• Dil-Iodine applied to the skin around the wound.",
+                  "• A sterile scalpel was utilized to make an incision on either side of the wound in order to gain access to the damaged {vessel}.",
+                  "• Sterile hemostats were applied to either side of the damaged {vessel} (proximally, and then distally)."
+],
+
+    "remove_bullet": ["• Sterile forceps were utilized to remove the bullet, which was successful and came out whole."
+],
+
+    "close": ["• C-hook was resterilized and rethreaded with {injury_thread} and a {injury_suture} pattern was utilized to suture the wound closed. Held well"
+]
+  },
+
+  "Gunshot Wound (T&T)":{
+    "initial_obs": ["• Wound flushed with saline and inspected for internal damage: {internal_damage} observed."
+],
+    "if_vascular": ["• Sterile hemostats were applied to either side of the damaged {vessel} (proximally, and then distally)."
+],
+    "close": [
+                  "• Wound flushed with DCA & Saline.",
+                  "• C-hook was resterilized and rethreaded with {injury_thread} and a {injury_suture} pattern was utilized to close the EXIT wound.",
+                  "• Wound flushed with DCA & Saline.",
+                  "• C-hook was resterilized and rethreaded with {injury_thread} and a {injury_suture} pattern was utilized to close the ENTRY wound."
+                ]
+  },
+
+  "Animal Wounds (Bites/Punctures)": {
+    "initial_obs": ["• Wound flushed with saline and inspected for internal damage: {internal_damage} observed."],
+
+    "if_vascular": [
+  "• Sterile hemostats were applied to either side of the damaged {vessel} (proximally, and then distally)."
+],
+
+    "close": [
+  "• A sterile C-hook was threaded with {injury_thread} and a {injury_suture} pattern was utilized to suture the wound closed. Held well"
+]
+  }
+
+}

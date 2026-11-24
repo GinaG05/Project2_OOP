@@ -1,0 +1,68 @@
+{
+  "Muscle (Torn)": {
+    "priority": 1,
+    "text": [
+      "• Wound flushed wih saline and inspected for internal damage: muscle (Torn) observed.",
+      "• Wound flushed with DCA & Saline.",
+      "• A sterile C-hook was threaded with catgut and utilized to suture the muscle. Held well."
+    ]
+  },
+
+  "Muscle (Severed/Jagged)": {
+    "priority": 1,
+    "text": [
+      "• Wound flushed wih saline and inspected for internal damage: muscle (Severed) observed.",
+      "• Wound flushed with DCA & Saline.",
+      "• A sterile scalpel was utilized to trim the damaged muscle tissue.",
+      "• A sterile C-hook was threaded with silk and utilized to suture the muscle. Held well."
+]
+  },
+
+  "Venous (Nicked)": {
+    "priority": 0,
+    "text": [
+        "• Severity of the damage to the vein was assessed and observed to be nicked.",
+        "• Wound flushed thoroughly with Saline.",
+        "• A sterile C-hook was threaded with silk and utilized to suture the vein with an interrupted looping stitch. Held well.",
+        "• Hemostats were removed, distally and then proximally, and vein checked for leakage: none present.",
+        "• Wound flushed with DCA & Saline."
+]
+  },
+
+  "Venous (Severed/Jagged)": {
+    "priority": 0,
+    "text": [
+        "• Severity of the damage to the vein was assessed and observed to be severed/jagged.",
+        "• A sterile scalpel was utilized in order to trim the slanted edged of the vein.",
+        "• Wound flushed thoroughly with Saline.",
+        "• A sterile C-hook was threaded with silk and utilized to suture the vein with an interrupted looping stitch. Held well.",
+        "• Hemostats were removed, distally and then proximally, and vein checked for leakage: none present.",
+        "• Wound flushed with DCA & Saline."
+]
+  },
+
+  "Arterial (Nicked)": {
+    "priority": 0,
+    "text": [
+        "• Severity of the damage to the artery was assessed and observed to be nicked.",
+        "• Wound flushed thoroughly with Saline.",
+        "• A sterile C-hook was threaded with silk and utilized to suture the artery with an interrupted looping stitch. Held well.",
+        "• Hemostats were removed, distally and then proximally, and artery checked for leakage: none present.",
+        "• Wound flushed with DCA & Saline."
+]
+  },
+
+  "Arterial (Severed/Jagged)": {
+    "priority": 0,
+    "text": [
+        "• Severity of the damage to the artery was assessed and observed to be severed/jagged.",
+        "• A sterile scalpel was utilized in order to trim the slanted edged of the artery.",
+        "• Wound flushed thoroughly with Saline.",
+        "• A sterile C-hook was threaded with silk and utilized to suture the artery with an interrupted looping stitch. Held well.",
+        "• Hemostats were removed, distally and then proximally, and artery checked for leakage: none present.",
+        "• Wound flushed with DCA & Saline."
+]
+  }
+
+
+}
