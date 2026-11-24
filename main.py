@@ -355,7 +355,6 @@ post_treatment_html = (
 
 pain_scale = st.number_input(
     "Pain Scale",
-    value=0,
     min_value=0,
     max_value=10,
     step=1,
