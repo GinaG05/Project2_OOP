@@ -428,7 +428,7 @@ def reset_all():
 
 
 st.button(
-    "Reset all",
+    f":red[Reset all]",
     key="reset_all_button",
     on_click=reset_all
 )
